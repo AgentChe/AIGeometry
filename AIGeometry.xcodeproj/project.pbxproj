@@ -124,7 +124,6 @@
 		DE3B420D2D35B0AB0072FA94 /* PurchaseValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B41982D35B0AB0072FA94 /* PurchaseValidationObserver.swift */; };
 		DE3B420E2D35B0AB0072FA94 /* PaygateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B41702D35B0AB0072FA94 /* PaygateViewController.swift */; };
 		DE3B420F2D35B0AB0072FA94 /* ProfileCreateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B418C2D35B0AB0072FA94 /* ProfileCreateRequest.swift */; };
-		DE3B42102D35B0AB0072FA94 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B40CD2D35B0AB0072FA94 /* BranchManager.swift */; };
 		DE3B42112D35B0AB0072FA94 /* TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B40FA2D35B0AB0072FA94 /* TextAttributes.swift */; };
 		DE3B42122D35B0AB0072FA94 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B40FB2D35B0AB0072FA94 /* Weak.swift */; };
 		DE3B42132D35B0AB0072FA94 /* ObservableAndSingle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B40DE2D35B0AB0072FA94 /* ObservableAndSingle+Extension.swift */; };
@@ -173,7 +172,6 @@
 		DE3B40BC2D35AF5A0072FA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE3B40BD2D35AF5A0072FA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE3B40CC2D35B0AB0072FA94 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		DE3B40CD2D35B0AB0072FA94 /* BranchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
 		DE3B40CE2D35B0AB0072FA94 /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DE3B40CF2D35B0AB0072FA94 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DE3B40D12D35B0AB0072FA94 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
@@ -401,7 +399,6 @@
 			isa = PBXGroup;
 			children = (
 				DE3B40CC2D35B0AB0072FA94 /* AmplitudeManager.swift */,
-				DE3B40CD2D35B0AB0072FA94 /* BranchManager.swift */,
 				DE3B40CE2D35B0AB0072FA94 /* FacebookManager.swift */,
 				DE3B40CF2D35B0AB0072FA94 /* FirebaseManager.swift */,
 			);
@@ -1365,7 +1362,6 @@
 				DE3B420D2D35B0AB0072FA94 /* PurchaseValidationObserver.swift in Sources */,
 				DE3B420E2D35B0AB0072FA94 /* PaygateViewController.swift in Sources */,
 				DE3B420F2D35B0AB0072FA94 /* ProfileCreateRequest.swift in Sources */,
-				DE3B42102D35B0AB0072FA94 /* BranchManager.swift in Sources */,
 				DE3B42112D35B0AB0072FA94 /* TextAttributes.swift in Sources */,
 				DE3B42122D35B0AB0072FA94 /* Weak.swift in Sources */,
 				DE3B42132D35B0AB0072FA94 /* ObservableAndSingle+Extension.swift in Sources */,
