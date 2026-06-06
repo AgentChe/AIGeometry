@@ -60,7 +60,6 @@
 		DE3B41CE2D35B0AB0072FA94 /* GlobalDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B41002D35B0AB0072FA94 /* GlobalDefinitions.swift */; };
 		DE3B41CF2D35B0AB0072FA94 /* AssistantAnalyzeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B41832D35B0AB0072FA94 /* AssistantAnalyzeImage.swift */; };
 		DE3B41D02D35B0AB0072FA94 /* ACEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B414E2D35B0AB0072FA94 /* ACEViewController.swift */; };
-		DE3B41D12D35B0AB0072FA94 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B40CC2D35B0AB0072FA94 /* AmplitudeManager.swift */; };
 		DE3B41D22D35B0AB0072FA94 /* XOREncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B40FC2D35B0AB0072FA94 /* XOREncryption.swift */; };
 		DE3B41D32D35B0AB0072FA94 /* RequestReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B40D12D35B0AB0072FA94 /* RequestReview.swift */; };
 		DE3B41D42D35B0AB0072FA94 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3B41762D35B0AB0072FA94 /* SplashViewController.swift */; };
@@ -170,7 +169,6 @@
 		DE3B40BB2D35AF5A0072FA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE3B40BC2D35AF5A0072FA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE3B40BD2D35AF5A0072FA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE3B40CC2D35B0AB0072FA94 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
 		DE3B40CF2D35B0AB0072FA94 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DE3B40D12D35B0AB0072FA94 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
 		DE3B40D22D35B0AB0072FA94 /* RxActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxActivityIndicator.swift; sourceTree = "<group>"; };
@@ -396,7 +394,6 @@
 		DE3B40D02D35B0AB0072FA94 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				DE3B40CC2D35B0AB0072FA94 /* AmplitudeManager.swift */,
 				DE3B40CF2D35B0AB0072FA94 /* FirebaseManager.swift */,
 			);
 			path = Analytics;
@@ -1190,9 +1187,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AIGeometry/Pods-AIGeometry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AIGeometry/Pods-AIGeometry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1207,9 +1208,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AIGeometry/Pods-AIGeometry-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AIGeometry/Pods-AIGeometry-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1295,7 +1300,6 @@
 				DE3B41CE2D35B0AB0072FA94 /* GlobalDefinitions.swift in Sources */,
 				DE3B41CF2D35B0AB0072FA94 /* AssistantAnalyzeImage.swift in Sources */,
 				DE3B41D02D35B0AB0072FA94 /* ACEViewController.swift in Sources */,
-				DE3B41D12D35B0AB0072FA94 /* AmplitudeManager.swift in Sources */,
 				DE3B41D22D35B0AB0072FA94 /* XOREncryption.swift in Sources */,
 				DE3B41D32D35B0AB0072FA94 /* RequestReview.swift in Sources */,
 				DE3B41D42D35B0AB0072FA94 /* SplashViewController.swift in Sources */,
@@ -1416,7 +1420,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1433,7 +1437,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.science.geometry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1456,7 +1460,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1473,7 +1477,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.science.geometry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
